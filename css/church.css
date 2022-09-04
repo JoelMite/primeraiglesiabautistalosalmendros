@@ -37,6 +37,12 @@ If you having trouble in editing css, see documentation or please email me on su
 
 */
 
+/*========== CSS JOEL ==========*/
+
+.text-align {
+	text-align: justify;
+}
+
 /*========== 1. GLOBAL STYLES ==============*/
 
 
@@ -936,7 +942,7 @@ a.list-group-item.active>.badge, .nav-pills>.active>a>.badge {
 	border-color: #DBBA80;
 }
 .panel-primary>.panel-heading {
-	color: #483f34;
+	color: #483434;
 	background-color: #ffc55f;
 	border-color: #DBBA80;
 }

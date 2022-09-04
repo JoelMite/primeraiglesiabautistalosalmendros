@@ -19,6 +19,7 @@
     <!-- Church Template CSS -->
     <link href="css/church.css" rel="stylesheet" />
     <link href="css/fancybox.css" rel="stylesheet" />
+    <link href="css/flexslider.css" rel="stylesheet" />
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
@@ -66,8 +67,8 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown active">
-              <a href="index.html" >
-                INICIO 
+              <a href="index.html">
+                INICIO
                 <!-- <span class="caret"></span> -->
               </a>
               <!-- <ul class="dropdown-menu dropdown-menu-left" role="menu">
@@ -121,79 +122,59 @@
     </div>
     <!--// Navbar Ends-->
 
-    <!-- BANNER SLIDER
+    <!-- FLEXSLIDER
     ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item slide-one active">
-          <div class="container">
-            <div class="carousel-caption">
-              <h2>CRISTO ES EL SEÑOR Y SU SALVADOR.</h2>
-              <h4>VENGA Y SEA PARTE DE NUESTRA FAMILIA.</h4>
 
-              <p>
-                <a
-                  class="btn btn-giant btn-primary"
-                  href="https://www.facebook.com/misionbautista.losalmendros.39"
-                  target="_blank"
-                  role="button"
-                  >UNETE &rarr;</a
-                >
-              </p>
-            </div>
+    <div class="flexslider">
+      <ul class="slides">
+        <li class="slide-one">
+          <div class="flexslider-caption">
+            <h3>CRISTO ES EL SEÑOR Y SU SALVADOR.</h3>
+            <h4>VENGA Y SEA PARTE DE NUESTRA FAMILIA.</h4>
+
+            <p>
+              <a
+                class="btn btn-giant btn-primary"
+                href="https://www.facebook.com/misionbautista.losalmendros.39"
+                target="_blank"
+                role="button"
+                >UNETE &rarr;</a
+              >
+            </p>
           </div>
-        </div>
-        <div class="item slide-two">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>LA COSECHA ES GRANDE</h1>
-              <h3>Anímese, porque el Señor le está llamando a su servicio.</h3>
-              <!-- <p><a class="btn btn-giant btn-primary" href="ministry.html" role="button">Lee Más &rarr;</a></p> -->
-            </div>
+        </li>
+        <li class="slide-two">
+          <div class="flexslider-caption">
+            <h1>"LA COSECHA ES GRANDE"</h1>
+            <strong
+              ><p class="lead">
+                Anímese, porque el Señor le está llamando a su servicio.
+              </p></strong
+            >
+            <!-- <p><a class="btn btn-giant btn-primary" href="ministry.html" role="button">Lee Más &rarr;</a></p> -->
           </div>
-        </div>
-        <div class="item slide-three">
-          <div class="container">
-            <div class="carousel-caption">
-              <h2>GRACIA Y VERDAD</h2>
-              <p class="lead">
-                Porque Dios no envió a su Hijo al mundo para condenar al mundo,
-                sino para salvar al mundo por medio de él. <em>Juan 3:17</em>
-              </p>
-              <p>
-                <!-- <a
+        </li>
+        <li class="slide-three">
+          <div class="flexslider-caption">
+            <h2>GRACIA Y VERDAD</h2>
+            <p class="lead">
+              Porque Dios no envió a su Hijo al mundo para condenar al mundo,
+              sino para salvar al mundo por medio de él. <em>Juan 3:17</em>
+            </p>
+            <p>
+              <!-- <a
                   class="btn btn-default btn-primary"
                   href="image-gallery.html"
                   role="button"
                   >Visita Nuestra Galería &rarr;</a
                 > -->
-              </p>
-            </div>
+            </p>
           </div>
-        </div>
-      </div>
-      <a
-        class="left carousel-control"
-        href="#myCarousel"
-        role="button"
-        data-slide="prev"
-        ><span class="glyphicon glyphicon-chevron-left"></span
-      ></a>
-      <a
-        class="right carousel-control"
-        href="#myCarousel"
-        role="button"
-        data-slide="next"
-        ><span class="glyphicon glyphicon-chevron-right"></span
-      ></a>
+        </li>
+      </ul>
     </div>
-    <!-- // Banner Slider -->
+
+    <!-- // END FlexSlider -->
 
     <!--UPCOMING EVENT-->
 
@@ -217,35 +198,52 @@
         <div class="col-md-4 col-sm-6 has-margin-bottom">
           <img
             class="img-responsive"
-            src="images/damas.png"
+            src="images/varones.png"
             alt="catholic church"
           />
-          <h5>Reunión de Varones</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Voluptatum, officiis cum earum asperiores, 
-            tempore nisi dolorum magnam rerum itaque assumenda, 
-            nemo repellat quam mollitia? Temporibus molestias atque 
-            cumque perferendis a!
-          </p>
-          <p><a href="#" role="button">View details →</a></p>
+          <h5></h5>
+          <div class="panel well">
+            <div class="panel-heading">
+              <h3 class="panel-title">Reunión de Varones</h3>
+            </div>
+            <div class="panel-body"> 
+              <p class="text-align">
+                ¿Varones, como podemos adentrarnos en conocer más a Dios?, la respuesta
+                esta en la oración y la alabanza, es por ello que extendemos la
+                invitación a todos los varones para que sean parte de esta celebración en
+                nuestra iglesia, así mismo estaremos compartiendo nuestras ideas, sueños y 
+                experiencias en conocer más a Jesucristo y ser cada día más como Él.
+              </p>
+              <strong>Horario: Martes 19:00 p.m </strong>
+            </div>
+          </div>
+          <!-- <p><a href="#" role="button">View details →</a></p> -->
         </div>
         <!-- /.col-md-4 -->
         <div class="col-md-4 col-sm-6 has-margin-bottom">
           <img
             class="img-responsive"
-            src="images/varones.png"
+            src="images/damas.png"
             alt="ministry sermon"
           />
-          <h5>Reunión de Damas</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Voluptatum, officiis cum earum asperiores, 
-            tempore nisi dolorum magnam rerum itaque assumenda, 
-            nemo repellat quam mollitia? Temporibus molestias atque 
-            cumque perferendis a!
-          </p>
-          <p><a href="#" role="button">View details →</a></p>
+          <h5></h5>
+          <div class="panel well">
+            <div class="panel-heading">
+              <h3 class="panel-title">Reunión de Damas</h3>
+            </div>
+            <div class="panel-body"> 
+            <p class="text-align">
+              Mujer, te has preguntado cual es el propósito que tiene Dios
+              para ti?, nos encantaría que lo descubras mediante su palabra y 
+              oración, por ello te hacemos la invitación a nuestra iglesia, para
+              que puedas potenciar tu rol como mujer de Dios y lleves a cabo la
+              misión que Dios tiene preparada para tí, tanto en la iglesia, 
+              en el hogar y en nuestra comunidad.
+            </p>
+            <strong>Horario: Miércoles 19:00 p.m </strong>
+            </div>
+          </div>
+          <!-- <p><a href="#" role="button">View details →</a></p> -->
         </div>
         <!-- /.col-md-4 -->
         <div
@@ -256,15 +254,19 @@
             src="images/culto.png"
             alt="bulletin programs"
           />
-          <h5>Culto</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Voluptatum, officiis cum earum asperiores, 
-            tempore nisi dolorum magnam rerum itaque assumenda, 
-            nemo repellat quam mollitia? Temporibus molestias atque 
-            cumque perferendis a!
-          </p>
-          <p><a href="#" role="button">View details →</a></p>
+          <h5></h5>
+          <div class="panel well">
+            <div class="panel-heading">
+              <h3 class="panel-title">Culto</h3>
+            </div>
+            <div class="panel-body"> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+            officiis cum earum asperiores, tempore nisi dolorum magnam rerum
+            itaque assumenda, nemo repellat quam mollitia? Temporibus molestias
+            atque cumque perferendis a!
+            </div>
+          </div>
+          <!-- <p><a href="#" role="button">View details →</a></p> -->
         </div>
         <!-- /.col-md-4 -->
       </div>
@@ -460,20 +462,20 @@
       </div>
       <div class="img-gallery row">
         <div class="col-sm-4 col-md-3">
-          <a
-            class="fancybox"
-            href="images/gallery/img_galeria_1.jpg"
-            data-fancybox-group="gallery"
-            title="imagen 1 "
-          >
-            <img
-              src="images/gallery/thumb/image_1.png"
-              class="img-responsive"
-              width="270"
-              height="270"
-              alt="imagen 1 "
-            />
-          </a>
+              <a
+                class="fancybox"
+                href="images/gallery/img_galeria_1.jpg"
+                data-fancybox-group="gallery"
+                title="imagen 1 "
+              >
+                <img
+                  src="images/gallery/thumb/image_1.png"
+                  class="img-responsive"
+                  width="270"
+                  height="270"
+                  alt="imagen 1 "
+                />
+              </a>
         </div>
         <div class="col-sm-4 col-md-3">
           <a
@@ -739,6 +741,18 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/ketchup.all.js"></script>
     <script src="js/fancybox.js"></script>
+    <script src="js/flexslider.js"></script>
     <script src="js/script.js"></script>
+
+    <script type="text/javascript">
+      $(window).load(function () {
+        $(".flexslider").flexslider({
+          animation: "slide",
+          start: function (slider) {
+            $("body").removeClass("loading");
+          },
+        });
+      });
+    </script>
   </body>
 </html>

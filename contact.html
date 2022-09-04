@@ -141,7 +141,7 @@
     <div class="subpage-head has-margin-bottom">
       <div class="container">
         <h3>Contáctanos</h3>
-        <p class="lead">Dirección de nuestra Iglesia y datos del contacto.</p>
+        <p class="lead">Envíanos un mensaje y nos comunicaremos contigo.</p>
       </div>
     </div>
 
@@ -202,7 +202,7 @@
             <div class="col-lg-12">
               Celular: 0984994755 / 0962938012<br />
               Email:
-              <a href="#">primeraiglesiabautistalosalmendros@gmail.com</a>
+              <b>primeraiglesiabautistalosalmendros@gmail.com</b>
             </div>
           </div>
           <!-- <hr>
@@ -281,7 +281,7 @@
               <br />
               Celular: 0984994755 / 0962938012<br />
               Email:
-              <a href="#">primeraiglesiabautistalosalmendros@gmail.com</a>
+              <b><a>primeraiglesiabautistalosalmendros@gmail.com</a></b>
             </p>
           </div>
           <div class="col-sm-12 col-md-6">
@@ -309,6 +309,14 @@
     </footer>
     <!-- END FOOTER -->
 
+    <div class="alert hide">
+      <span class="fas fa-exclamation-circle"></span>
+      <span class="msg">Warning: This is a warning alert!</span>
+      <div class="close-btn">
+        <span class="fas fa-times"></span>
+      </div>
+    </div>
+
     <!-- Bootstrap core JavaScript
 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -317,5 +325,24 @@
     <script src="js/ketchup.all.js"></script>
     <!-- <script src="js/contact_form.js"></script>  -->
     <script src="js/script.js"></script>
+    
+    <script>
+
+      $('button').click(function(){
+        $('.alert').addClass("show");
+        $('.alert').removeClass("hide");
+        $('.alert').addClass("showAlert");
+        setTimeout(function(){
+          $('.alert').removeClass("show");
+          $('.alert').addClass("hide");
+        }, 5000);
+      });
+
+      $('.close-btn').click(function(){
+        $('.alert').removeClass("show");
+        $('.alert').addClass("hide");
+      });
+
+    </script>
   </body>
 </html>

@@ -48,7 +48,11 @@
 }
 .flexslider .slides > li {
   display: none;
-  -webkit-backface-visibility: hidden;
+
+  /*? Lo omiti porque me daba un error como tipo flash*/
+  /*? al momento de presentar las imagenes animadas en*/
+  /*? la pantalla principal.*/
+  /* -webkit-backface-visibility: hidden;  */
 }
 .flexslider .slides img {
   width: 100%;
